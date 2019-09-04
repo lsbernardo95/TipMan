@@ -14,6 +14,10 @@
 		0E50DFD023123C5800E230C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E50DFCE23123C5800E230C9 /* LaunchScreen.storyboard */; };
 		0E50DFDB23123C5800E230C9 /* TipManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50DFDA23123C5800E230C9 /* TipManTests.swift */; };
 		0E50DFE623123C5800E230C9 /* TipManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50DFE523123C5800E230C9 /* TipManUITests.swift */; };
+		0EBDAC57231F537600EEE9EC /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDAC56231F537600EEE9EC /* Swift+Gif.swift */; };
+		0EBDAC59231F540300EEE9EC /* thankful.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0EBDAC58231F540300EEE9EC /* thankful.gif */; };
+		0EBDAC5B231F5B3200EEE9EC /* crying.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0EBDAC5A231F5B3200EEE9EC /* crying.gif */; };
+		0EE00D5A23207ADF00A0409C /* mad.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0EE00D5923207ADF00A0409C /* mad.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		0E50DFE123123C5800E230C9 /* TipManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E50DFE523123C5800E230C9 /* TipManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipManUITests.swift; sourceTree = "<group>"; };
 		0E50DFE723123C5800E230C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EBDAC56231F537600EEE9EC /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		0EBDAC58231F540300EEE9EC /* thankful.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = thankful.gif; sourceTree = "<group>"; };
+		0EBDAC5A231F5B3200EEE9EC /* crying.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = crying.gif; sourceTree = "<group>"; };
+		0EE00D5923207ADF00A0409C /* mad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mad.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +105,15 @@
 		0E50DFC423123C5700E230C9 /* TipMan */ = {
 			isa = PBXGroup;
 			children = (
+				0EE00D5923207ADF00A0409C /* mad.gif */,
+				0EBDAC5A231F5B3200EEE9EC /* crying.gif */,
 				0E50DFC523123C5700E230C9 /* AppDelegate.swift */,
 				0E50DFC723123C5700E230C9 /* ViewController.swift */,
+				0EBDAC56231F537600EEE9EC /* Swift+Gif.swift */,
 				0E50DFC923123C5700E230C9 /* Main.storyboard */,
 				0E50DFCC23123C5800E230C9 /* Assets.xcassets */,
 				0E50DFCE23123C5800E230C9 /* LaunchScreen.storyboard */,
+				0EBDAC58231F540300EEE9EC /* thankful.gif */,
 				0E50DFD123123C5800E230C9 /* Info.plist */,
 			);
 			path = TipMan;
@@ -229,8 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EBDAC5B231F5B3200EEE9EC /* crying.gif in Resources */,
 				0E50DFD023123C5800E230C9 /* LaunchScreen.storyboard in Resources */,
 				0E50DFCD23123C5800E230C9 /* Assets.xcassets in Resources */,
+				0EE00D5A23207ADF00A0409C /* mad.gif in Resources */,
+				0EBDAC59231F540300EEE9EC /* thankful.gif in Resources */,
 				0E50DFCB23123C5700E230C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E50DFC823123C5700E230C9 /* ViewController.swift in Sources */,
+				0EBDAC57231F537600EEE9EC /* Swift+Gif.swift in Sources */,
 				0E50DFC623123C5700E230C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
